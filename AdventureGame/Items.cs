@@ -10,7 +10,10 @@ namespace AdventureGame
     {
 
         public string ItemName { get; set; }
-        public object ItemBelongsIn { get; set; }
+        public object ItemBelongsIn { get; set; } //För att få items till rumbehörighet. 
+        public int spöket { get; set; }
+        public string toilett { get; set; }
+        public string keyName { get; set; } //Ska bestå av rum och 
 
 
 

@@ -8,15 +8,35 @@ namespace AdventureGame
 {
     class Player
     {
-        // Properties
-        // - Playername. tex. public string roomname;
-        // - Inventory (list of items). t.ex public List<Items> Inventory { get; set; } 
-        // - IsAlive (bool)
-        // - PlayerLocation (property representing the location of the player)
+        public string Name { get; set; }
+        public List<Items> IventoryList { get; set; } //Hur ska man göra en hel lista utav detta.
+        public bool IsAlive { get; set; }
+        public object PlayerLocation { get; set; } //Vart playser ska befinna sig
+
+        public object Go() // Får att gå, inkomplett
+        {
+
+        }
+
+        public List<> PickUp() //Ska ta upp Items
+        {
+
+        }
+
+        public List<> Drope()//Ska släppa items
+        {
 
 
-        // Metoder
-        // - Go, pickup, drop, look, use, open, die
+        }
 
+        public bool Open() //Ska kunna använda nycklas som finns i lista för att öppna dörr
+        {
+
+        }
+
+        public bool Die() //Ska döda karaktär
+        {
+            return IsAlive = false;
+        }
     }
 }
