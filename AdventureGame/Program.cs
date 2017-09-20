@@ -10,7 +10,13 @@ namespace AdventureGame
     {
         static void Main(string[] args)
         {
+            // 1. Skapa nytt objekt av klassen "World". typ World game = new World();
 
+            // 2. game.play(); 
+            
+            
+
+            
         }
     }
 }

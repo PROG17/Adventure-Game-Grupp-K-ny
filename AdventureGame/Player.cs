@@ -9,10 +9,10 @@ namespace AdventureGame
     class Player
     {
         // Properties
-        // - Playername
-        // - Inventory (list of items)
+        // - Playername. tex. public string roomname;
+        // - Inventory (list of items). t.ex public List<Items> Inventory { get; set; } 
         // - IsAlive (bool)
-
+        // - PlayerLocation (property representing the location of the player)
 
 
         // Metoder
