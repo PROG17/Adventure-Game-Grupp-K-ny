@@ -16,6 +16,16 @@ namespace AdventureGame
 
     class Room
     {
+        public string roomName { get; set; }
+        public int roomNumber { get; set; }
+        public string roomDescription { get; set; }
+        public Dictionary<Direction, Room> exits = new Dictionary<Direction, Room>();
+
+        public List<Items> InventoryListForRoom { get; set; } //Behöver lägga till Items.
+
+
+
+
         // Properties
         // - Description (text about room), public string description;
         // - Room name, public string roomname;

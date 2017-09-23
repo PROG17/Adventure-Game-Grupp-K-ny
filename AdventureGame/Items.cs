@@ -8,25 +8,21 @@ namespace AdventureGame
 {
     public class Items
     {
+        public string itemName { get; set; }
+        public string itemDescripton { get; set; }
+        public int keyNumberForDoorNumber { get; set; } //Ska bestå av number för varje rum
 
-        public string ItemName { get; set; }
-        public object ItemBelongsIn { get; set; } //För att få items till rumbehörighet. 
-        public int spöket { get; set; }
-        public string toilett { get; set; }
-        public string keyName { get; set; } //Ska bestå av rum och 
-
+        //public List<Room> BelongsIn { get; set; } //För att få items till rumbehörighet. 
 
 
         // här ska det finnas items: 
 
         //nycklar till dörrar - Får sifferNamn
-        //nycklar till skattkista
-        //Skattkista för att klara spelet
-        //Spöket - Dödar dig
-        //Fängelsehållan - Fängslar dig tills du dör
+        //nycklar till pengarvalvet
+        //Spöket - som dödar dig
         //Toalett
-        //Krimskrams man inte behöver i spelet egentligen
 
+        //Krimskrams man inte behöver i spelet egentligen
         // Fyll på med Items när vi vet resten av historien...
 
     }

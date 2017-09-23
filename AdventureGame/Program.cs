@@ -10,7 +10,10 @@ namespace AdventureGame
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Vad ska din Karaktär heta: ");
+            string name = Console.ReadLine();
 
+            //Player(name);
 
 
 

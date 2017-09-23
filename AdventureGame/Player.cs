@@ -6,33 +6,49 @@ using System.Threading.Tasks;
 
 namespace AdventureGame
 {
-    class Player
+    public class Player
     {
         public string Name { get; set; }
         public List<Items> IventoryList { get; set; } //Hur ska man göra en hel lista utav detta.
         public bool IsAlive { get; set; }
-        public object PlayerLocation { get; set; } //Vart playser ska befinna sig
+        
 
-        public object Go() // Får att gå, inkomplett
+        //Konstruktur För att få spelarenamn. Start för Spelet
+        public Player(string name)
         {
+            Name = this.Name;            
 
+            Console.WriteLine("Välkommen " + Name);
+            Console.WriteLine("nDitt uppdrag är att hitta den värdefulla skattkistan" +
+               "+ med livet i behåll. Leta efter nycklar för att kunna ta dig runt i huset och slutligen till skattkistan");
+            Console.WriteLine("Tryck Enter för att stara spelet");
+            Console.ReadLine();
+
+            Console.Clear();
+
+            //Ska även passa med en lista som innehåller ngt till att börja med? 
         }
 
-        public List<> PickUp() //Ska ta upp Items
-        {
+        //public object Go() // Får att gå, inkomplett
+        //{
+            
+        //}
 
-        }
+        //public List<Items> PickUp() //Ska ta upp Items
+        //{
+        //    Items.
+        //}
 
-        public List<> Drope()//Ska släppa items
-        {
+        //public List<Items> Drope()//Ska släppa items
+        //{
 
 
-        }
+        //}
 
-        public bool Open() //Ska kunna använda nycklas som finns i lista för att öppna dörr
-        {
+        //public bool Open() //Ska kunna använda nycklas som finns i lista för att öppna dörr
+        //{
 
-        }
+        //}
 
         public bool Die() //Ska döda karaktär
         {

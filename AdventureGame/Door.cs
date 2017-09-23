@@ -9,6 +9,7 @@ namespace AdventureGame
     class Door
     {
         public string DoorName { get; set; }
+        public int DoorNumber { get; set; } //För att kunna jämföra vilka nycklar man har.
         public bool DoorIsClosed { get; set; }
 
         //Här finns dörrar mellan rummen.
